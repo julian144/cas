@@ -33,7 +33,7 @@ use yii\widgets\ActiveForm;
 
     <?php $form->field($model, 'empadre') ?>
 
-    <?php $form->field($model, 'madre') ?>
+    <?php $form->field($model, 'madre')?>
     <?php $form->field($model, 'estado') ?>
 
     <div class="form-group">

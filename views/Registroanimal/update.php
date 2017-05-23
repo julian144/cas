@@ -7,7 +7,7 @@ use yii\helpers\Html;
 
 $this->title = 'Actualizar el número de arete: ' . $model->noarete;
 $this->params['breadcrumbs'][] = ['label' => 'Búsqueda y reportes', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->idregistro, 'url' => ['view', 'id' => $model->idregistro]];
+$this->params['breadcrumbs'][] = ['label' => $model->noarete, 'url' => ['view', 'id' => $model->idregistro]];
 $this->params['breadcrumbs'][] = 'Actualizar';
 ?>
 <div class="registroanimal-update">

@@ -29,7 +29,7 @@
 							<div class="form-label" id="remember-label"> </div>
 							<div id="remember-element" class="form-element">
 								<input type="hidden" name="remember" value="">
-								<input type="checkbox" name="remember" id="remember" value="1" tabindex="4">
+								<input type="checkbox" name="Remember Me" id="remember" value="1" tabindex="4">
 								<label for="remember" class="optional">Remember Me</label>
 							</div>
 						</div>

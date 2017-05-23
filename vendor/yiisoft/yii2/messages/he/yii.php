@@ -44,7 +44,7 @@ return [
     'The image "{file}" is too large. The width cannot be larger than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'התמונה "{file}" גדולה מדי. הרוחב לא יכול להיות גדול מ {limit, number} {limit, plural, one{pixel} other{pixels}}.',
     'The image "{file}" is too small. The height cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'התמונה "{file}" קטנה מדי. הגובה לא יכול להיות קטן מ {limit, number} {limit, plural, one{pixel} other{pixels}}.',
     'The image "{file}" is too small. The width cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'התמונה "{file}" קטנה מדי. הרוחב לא יכול להיות קטן מ {limit, number} {limit, plural, one{pixel} other{pixels}}.',
-    'The verification code is incorrect.' => 'קוד האימות אינו תקין.',
+    'El código de verificación es incorrecto. Intente de nuevo.' => 'קוד האימות אינו תקין.',
     'Total <b>{count, number}</b> {count, plural, one{item} other{items}}.' => 'סך הכל <b>{count, number}</b> {count, plural, one{אייטם} other{אייטמים}}.',
     'Unable to verify your data submission.' => 'אין אפשרות לאמת את המידע שהתקבל.',
     'Unknown command "{command}".' => 'Unknown command "{command}".',
@@ -74,6 +74,6 @@ return [
     '{attribute} must be repeated exactly.' => '{attribute} חייב להיות מוחזר בדיוק.',
     '{attribute} must not be equal to "{compareValue}".' => '{attribute} חייב להיות שווה ל "{compareValue}"',
     '{attribute} should contain at least {min, number} {min, plural, one{character} other{characters}}.' => '{attribute} אמור לכלול לפחות {min, number} {min, plural, one{תו} other{תוים}}.',
-    '{attribute} should contain at most {max, number} {max, plural, one{character} other{characters}}.' => '{attribute} אמור לא לכלול יותר מ{max, number} {max, plural, one{תו} other{תוים}}.',
+    '{attribute} debete contener como máximo {max, number} {max, plural, one{caracter} other{caracteres}}.' => '{attribute} אמור לא לכלול יותר מ{max, number} {max, plural, one{תו} other{תוים}}.',
     '{attribute} should contain {length, number} {length, plural, one{character} other{characters}}.' => '{attribute}  אמור לכלול {length, number} {length, plural, one{תו} other{תוים}}.',
 ];

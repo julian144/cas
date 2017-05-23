@@ -62,18 +62,16 @@ class RegistroanimalSearch extends Registroanimal
         $query->andFilterWhere([
             'idregistro' => $this->idregistro,
             'noarete' => $this->noarete,
-            'fechacoloc' => $this->fechacoloc,
-            'fechanac' => $this->fechanac,
-            'raza' => $this->raza,
             'madre' => $this->madre,
-            'estado' => $this->estado,
         ]);
 
-        $query->andFilterWhere(['like', 'edad', $this->edad])
+        $query->andFilterWhere(['like', 'fechacoloc', $this->fechacoloc])
+            ->andFilterWhere(['like', 'fechanac', $this->fechanac])
+            ->andFilterWhere(['like', 'edad', $this->edad])
             ->andFilterWhere(['like', 'sexo', $this->sexo])
             ->andFilterWhere(['like', 'especraza', $this->especraza])
             ->andFilterWhere(['like', 'empadre', $this->empadre])
-            ->andFilterWhere(['like', 'estado', $this->empadre]);
+            ->andFilterWhere(['like', 'estado', $this->estado]);
 
         return $dataProvider;
     }

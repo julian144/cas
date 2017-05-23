@@ -80,7 +80,7 @@ return [
     'The image "{file}" is too small. The height cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'O arquivo "{file}" é pequeno demais. A altura não pode ser menor que {limit, number} {limit, plural, one{pixel} other{pixels}}.',
     'The image "{file}" is too small. The width cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'O arquivo "{file}" é pequeno demais. A largura não pode ser menor que {limit, number} {limit, plural, one{pixel} other{pixels}}.',
     'The requested view "{name}" was not found.' => 'A visão "{name}" solicitada não foi encontrada.',
-    'The verification code is incorrect.' => 'O código de verificação está incorreto.',
+    'El código de verificación es incorrecto. Intente de nuevo.' => 'O código de verificação está incorreto.',
     'Total <b>{count, number}</b> {count, plural, one{item} other{items}}.' => 'Total <b>{count, number}</b> {count, plural, one{item} other{itens}}.',
     'Unable to verify your data submission.' => 'Não foi possível verificar o seu envio de dados.',
     'Unknown option: --{name}' => 'Opção desconhecida : --{name}',
@@ -115,7 +115,7 @@ return [
     '{attribute} must be no less than {min}.' => '"{attribute}" não pode ser menor que {min}.',
     '{attribute} must not be equal to "{compareValueOrAttribute}".' => '"{attribute}" não deve ser igual a "{compareValueOrAttribute}".',
     '{attribute} should contain at least {min, number} {min, plural, one{character} other{characters}}.' => '"{attribute}" deve conter pelo menos {min, number} {min, plural, one{caractere} other{caracteres}}.',
-    '{attribute} should contain at most {max, number} {max, plural, one{character} other{characters}}.' => '"{attribute}" deve conter no máximo {max, number} {max, plural, one{caractere} other{caracteres}}.',
+    '{attribute} debete contener como máximo {max, number} {max, plural, one{caracter} other{caracteres}}.' => '"{attribute}" deve conter no máximo {max, number} {max, plural, one{caractere} other{caracteres}}.',
     '{attribute} should contain {length, number} {length, plural, one{character} other{characters}}.' => '"{attribute}" deve conter {length, number} {length, plural, one{caractere} other{caracteres}}.',
     '{attribute} must be equal to "{compareValueOrAttribute}".' => '{attribute} deve ser igual a "{compareValueOrAttribute}".',
 ];

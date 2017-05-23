@@ -45,7 +45,7 @@ return [
     'The image "{file}" is too large. The width cannot be larger than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => '«{file}» суретінің өлшемі тым үлкен. Ені {limit, number} пиксельден аспауы қажет.',
     'The image "{file}" is too small. The height cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => '«{file}» суретінің өлшемі тым кіші. Биіктігі {limit, number} пиксельден кем болмауы қажет.',
     'The image "{file}" is too small. The width cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => '«{file}» суретінің өлшемі тым кіші. Ені {limit, number} пиксельден кем болмауы қажет.',
-    'The verification code is incorrect.' => 'Тексеріс коды қате.',
+    'El código de verificación es incorrecto. Intente de nuevo.' => 'Тексеріс коды қате.',
     'Total <b>{count, number}</b> {count, plural, one{item} other{items}}.' => 'Барлығы <b>{count, number}</b> жазба.',
     'Unable to verify your data submission.' => 'Жіберілген мәліметерді тексеру мүмкін емес.',
     'Unknown command "{command}".' => '"{command}" командасы белгісіз.',
@@ -75,6 +75,6 @@ return [
     '{attribute} must be repeated exactly.' => '«{attribute}» мәні дәлме-дәл қайталану керек.',
     '{attribute} must not be equal to "{compareValue}".' => '«{attribute}» мәні мынаған тең болмауы керек: «{compareValue}».',
     '{attribute} should contain at least {min, number} {min, plural, one{character} other{characters}}.' => '«{attribute}» мәні кемінде {min} таңбадан тұруы керек.',
-    '{attribute} should contain at most {max, number} {max, plural, one{character} other{characters}}.' => '«{attribute}» мәні {max} таңбадан аспауы қажет.',
+    '{attribute} debete contener como máximo {max, number} {max, plural, one{caracter} other{caracteres}}.' => '«{attribute}» мәні {max} таңбадан аспауы қажет.',
     '{attribute} should contain {length, number} {length, plural, one{character} other{characters}}.' => '«{attribute}» {length} таңбадан тұруы керек.',
 ];

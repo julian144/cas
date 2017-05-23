@@ -3,37 +3,52 @@
 /* @var $this yii\web\View */
 $this->title = 'CAS|Control de Aretes Siniiga';
 ?>
-<div class="site-index">
-
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead"></p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-
-
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img class="first-slide" src="images/slideshow/vaca_1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
 
             </div>
-            <div class="col-lg-4">
-              <h2>Objetivo</h2>
-<p>Crear, desarrollar e implementar un sistema web y de escritorio llamado Control de Aretes Siniiga (CAS)
-  para Corrales Villaescuza. Este va dirigido a pequeñas y medianas empresas que manejen ganado y que necesiten
-  llevar un control efectivo de este mismo. Tomando en cuenta elevar su productividad y ahorrarle grandes cantidades de dinero anual, en el uso de papelería para esta actividad.</p>
-
+          </div>
+        </div>
+        <div class="item second">
+          <img class="second-slide" src="images/slideshow/vaca_2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
 
             </div>
-            <div class="col-lg-4">
+          </div>
+        </div>
+        <div class="item thrird">
+          <img class="third-slide" src="images/slideshow/vaca_3.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div><!-- /.carousel -->
 
 
             </div>
         </div>
-
     </div>
 </div>

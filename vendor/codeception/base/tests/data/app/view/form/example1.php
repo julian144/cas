@@ -20,7 +20,7 @@
     </div>
 
     <div class="row rememberMe">
-        <input id="ytLoginForm_rememberMe" type="hidden" value="0" name="LoginForm[rememberMe]" /><input name="LoginForm[rememberMe]" id="LoginForm_rememberMe" value="1" type="checkbox" />        <label for="LoginForm_rememberMe">Remember me next time</label>     <div class="errorMessage" id="LoginForm_rememberMe_em_" style="display:none"></div> </div>
+        <input id="ytLoginForm_rememberMe" type="hidden" value="0" name="LoginForm[rememberMe]" /><input name="LoginForm[rememberMe]" id="LoginForm_rememberMe" value="1" type="checkbox" />        <label for="LoginForm_rememberMe">Remember Me next time</label>     <div class="errorMessage" id="LoginForm_rememberMe_em_" style="display:none"></div> </div>
 
 
         <button type="submit" name="yt0" >Login</button>

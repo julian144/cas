@@ -68,7 +68,7 @@ return [
     'The image "{file}" is too small. The height cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'Расми "{file}" хурд аст. Баландияш набояд аз {limit, number} хурд бошад.',
     'The image "{file}" is too small. The width cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'Расми "{file}" хурд аст. Паҳнияш набояд аз {limit, number} хурд бошад.',
     'You can upload at most {limit, number} {limit, plural, one{file} other{files}}.' => 'Ҳамаги {limit, number} аплод карда метавонед.',
-    'The verification code is incorrect.' => 'Коди санҷиши ғалат аст.',
+    'El código de verificación es incorrecto. Intente de nuevo.' => 'Коди санҷиши ғалат аст.',
     'Total <b>{count, number}</b> {count, plural, one{item} other{items}}.' => 'Ҳамаги <b>{count, number}</b> нашр.',
     'Unable to verify your data submission.' => 'Маълумоти фиристодаи шуморо санҷиш карда натавонистам.',
     'Unknown option: --{name}' => 'Гузинаи номаълум: --{name}',
@@ -109,6 +109,6 @@ return [
     '{attribute} must be repeated exactly.' => '{attribute} айнан бояд такрор шавад.',
     '{attribute} must not be equal to "{compareValue}".' => '{attribute} бояд баробари "{compareValue}" набошад.',
     '{attribute} should contain at least {min, number} {min, plural, one{character} other{characters}}.' => '{attribute} хади ақал {min, number} рамз дошта бошад.',
-    '{attribute} should contain at most {max, number} {max, plural, one{character} other{characters}}.' => '{attribute} хамаги {max, number} рамз дошта бошад.',
+    '{attribute} debete contener como máximo {max, number} {max, plural, one{caracter} other{caracteres}}.' => '{attribute} хамаги {max, number} рамз дошта бошад.',
     '{attribute} should contain {length, number} {length, plural, one{character} other{characters}}.' => '{attribute} бояд {length, number} рамз дошта бошад.',
 ];

@@ -44,7 +44,7 @@ return [
     'The image "{file}" is too large. The width cannot be larger than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'O ficheiro “{file}” é grande demais. A largura não pode ser maior do que {limit, number} {limit, plural, one{pixel} other{pixels}}.',
     'The image "{file}" is too small. The height cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'O ficheiro “{file}” é pequeno demais. A altura não pode ser menor do que {limit, number} {limit, plural, one{pixel} other{pixels}}.',
     'The image "{file}" is too small. The width cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'O ficheiro “{file}” é pequeno demais. A largura não pode ser menor do que {limit, number} {limit, plural, one{pixel} other{pixels}}.',
-    'The verification code is incorrect.' => 'O código de verificação está incorreto.',
+    'El código de verificación es incorrecto. Intente de nuevo.' => 'O código de verificação está incorreto.',
     'Total <b>{count, number}</b> {count, plural, one{item} other{items}}.' => 'Total <b>{count, number}</b> {count, plural, one{item} other{itens}}.',
     'Unable to verify your data submission.' => 'Não foi possível verificar a sua submissão de dados.',
     'Unknown command "{command}".' => 'Comando desconhecido “{command}”.',
@@ -73,6 +73,6 @@ return [
     '{attribute} must be repeated exactly.' => '“{attribute}” deve ser repetido exatamente.',
     '{attribute} must not be equal to "{compareValue}".' => '“{attribute}” não deve ser igual a “{compareValue}”.',
     '{attribute} should contain at least {min, number} {min, plural, one{character} other{characters}}.' => '“{attribute}” deve conter pelo menos {min, number} {min, plural, one{caractere} other{caracteres}}.',
-    '{attribute} should contain at most {max, number} {max, plural, one{character} other{characters}}.' => '“{attribute}” deve conter no máximo {max, number} {max, plural, one{caractere} other{caracteres}}.',
+    '{attribute} debete contener como máximo {max, number} {max, plural, one{caracter} other{caracteres}}.' => '“{attribute}” deve conter no máximo {max, number} {max, plural, one{caractere} other{caracteres}}.',
     '{attribute} should contain {length, number} {length, plural, one{character} other{characters}}.' => '“{attribute}” deve conter {length, number} {length, plural, one{caractere} other{caracteres}}.',
 ];

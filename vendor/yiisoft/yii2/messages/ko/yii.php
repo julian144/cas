@@ -44,7 +44,7 @@ return [
     'The image "{file}" is too large. The width cannot be larger than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => '이미지 "{file}"가 너무 큽니다. 넓이는 {limit} 보다 클 수 없습니다.',
     'The image "{file}" is too small. The height cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => '이미지 "{file}"가 너무 작습니다. 높이는 {limit} 보다 작을 수 없습니다.',
     'The image "{file}" is too small. The width cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => '이미지 "{file}"가 너무 작습니다. 넒이는 {limit} 보다 작을 수 없습니다.',
-    'The verification code is incorrect.' => '확인코드가 올바르지않습니다.',
+    'El código de verificación es incorrecto. Intente de nuevo.' => '확인코드가 올바르지않습니다.',
     'Total <b>{count, number}</b> {count, plural, one{item} other{items}}.' => '모두 {count} 개',
     'Unable to verify your data submission.' => '데이터 전송을 확인하지 못했습니다.',
     'Unknown command "{command}".' => '알 수 없는 명령 "{command}".',
@@ -74,6 +74,6 @@ return [
     '{attribute} must be repeated exactly.' => '{attribute}는 정확하게 반복합니다.',
     '{attribute} must not be equal to "{compareValue}".' => '{attribute}는 "{compareValue}"와 같을 수 없습니다.',
     '{attribute} should contain at least {min, number} {min, plural, one{character} other{characters}}.' => '{attribute}는 최소 {min}자 이어야합니다.',
-    '{attribute} should contain at most {max, number} {max, plural, one{character} other{characters}}.' => '{attribute}는 최대 {max}자 이어야합니다.',
+    '{attribute} debete contener como máximo {max, number} {max, plural, one{caracter} other{caracteres}}.' => '{attribute}는 최대 {max}자 이어야합니다.',
     '{attribute} should contain {length, number} {length, plural, one{character} other{characters}}.' => '{attribute}는 {length}자 이어야합니다.',
 ];

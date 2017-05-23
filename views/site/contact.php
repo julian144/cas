@@ -8,7 +8,7 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'Contactános';
+$this->title = 'Contáctanos';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
@@ -21,7 +21,7 @@ $this->params['breadcrumbs'][] = $this->title;
         </div>
 
         <p>
-          
+
             <?php if (Yii::$app->mailer->useFileTransport): ?>
                 Because the application is in development mode, the email is not sent but saved as
                 a file under <code><?= Yii::getAlias(Yii::$app->mailer->fileTransportPath) ?></code>.

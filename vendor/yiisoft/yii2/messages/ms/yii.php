@@ -52,7 +52,7 @@ return [
     'The image "{file}" is too small. The width cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 
     'Gambar "{file}" terlalu kecil. Lebar gambar tidak boleh kurang daripada {limit, number} {limit, plural, one{pixel} other{pixels}}.',
     'The requested view "{name}" was not found.' => 'Paparan yang diminta "{name}" tidak dijumpai.',
-    'The verification code is incorrect.' => 'Kod penyesah tidak tepat.',
+    'El código de verificación es incorrecto. Intente de nuevo.' => 'Kod penyesah tidak tepat.',
     'Total <b>{count, number}</b> {count, plural, one{item} other{items}}.' => 'Jumlah <b>{count, number}</b> {count, plural, one{item} other{items}}.',
     'Unable to verify your data submission.' => 'Tidak bejaya mengesahkan data yang dihantar.',
     'Unknown option: --{name}' => 'Pilihan lain: --{name}',
@@ -90,7 +90,7 @@ return [
     '{attribute} must not be equal to "{compareValue}".' => '{attribute} mestilah tidak sama dengan "{compareValue}".',
     '{attribute} should contain at least {min, number} {min, plural, one{character} other{characters}}.' => 
     '{attribute} mesti mengandungi sekurang-kurangnya {min, number} {min, plural, one{character} other{characters}}.',
-    '{attribute} should contain at most {max, number} {max, plural, one{character} other{characters}}.' => 
+    '{attribute} debete contener como máximo {max, number} {max, plural, one{caracter} other{caracteres}}.' => 
     '{attribute} mesti mengangungi paling banyak {max, number} {max, plural, one{character} other{characters}}.',
     '{attribute} should contain {length, number} {length, plural, one{character} other{characters}}.' => 
     '{attribute} mesti mengandungi {length, number} {length, plural, one{character} other{characters}}.',

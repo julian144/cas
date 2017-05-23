@@ -36,7 +36,7 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Inicio', 'url' => ['/site/index']],
+          
             ['label' => 'Acerca de nosotros', 'url' => ['/site/about']],
             ['label' => 'Contáctanos', 'url' => ['/site/contact']],
             ['label' => 'Registrar Arete', 'url' => ['/registroanimal/create']],
@@ -69,9 +69,9 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+        <p class="pull-left">&copy; CAS Control de Aretes Siniiga <?= date('Y') ?></p>
 
-        <p class="pull-right"><?= Yii::powered() ?></p>
+
     </div>
 </footer>
 

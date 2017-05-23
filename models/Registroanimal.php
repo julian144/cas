@@ -38,11 +38,14 @@ class Registroanimal extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['fechacoloc','noarete','edad','sexo','especraza','raza','empadre','madre','fechanac','estado'], 'required'],
+            [['fechacoloc','noarete','edad','sexo','especraza','raza','empadre','fechanac','estado'], 'required'],
+            ['noarete','unique', 'message' => 'El Número de Arete ya se encuentra registrado en el sistema. Favor de registrar otro distinto.'],
             [['noarete', 'madre'], 'integer'],
+            [['noarete'],'string','min' => 10,'max' => 10,'message' => 'El Número de Arete debe contener 10 números.'],
+            [['noarete'],'number'],
             [['fechacoloc', 'fechanac'], 'safe'],
+            [['madre'],'string','min' => 10,'max' => 10,'message' => 'El Número de la Madre debe contener 10 números.'],
 
-            [['noarete','madre'], 'integer', 'min' =>1, 'max' => 9999999999],
             [['edad'], 'string','min' => 2, 'max' => 25],
             [['raza'], 'string','min' => 2, 'max' => 20],
             [['sexo', 'empadre','estado'], 'string', 'min' =>2, 'max' => 40],
@@ -58,14 +61,15 @@ class Registroanimal extends \yii\db\ActiveRecord
         return [
           'idregistro' => 'Idregistro',
           'noarete' => 'Número de Arete',
-          'fechacoloc' => 'Fecha de Colocación',
-          'fechanac' => 'Fecha de Nacimiento',
-          'madre' => 'Madre',
-          'sexo' => 'Sexo',
-          'raza' => 'Raza',
-          'especraza' => 'Raza especifica',
-          'empadre' => 'Empadre',
-          'estado'=>'Estado del animal',
+          'fechacoloc' => 'Fecha Coloc.',
+          'fechanac' => 'Fecha Nac.',
+          'madre' => 'No. Arete Madre',
+          'sexo' => 'Sexo del Animal',
+          'raza' => 'Raza Animal',
+          'edad'=>'Edad animal',
+          'especraza' => 'Raza especifica animal',
+          'empadre' => 'Empadre Aninal',
+          'estado'=>'Estado animal',
 
         ];
     }

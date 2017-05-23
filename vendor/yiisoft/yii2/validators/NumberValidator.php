@@ -64,14 +64,14 @@ class NumberValidator extends Validator
     {
         parent::init();
         if ($this->message === null) {
-            $this->message = $this->integerOnly ? Yii::t('yii', '{attribute} must be an integer.')
-                : Yii::t('yii', '{attribute} must be a number.');
+            $this->message = $this->integerOnly ? Yii::t('yii', '{attribute} debe ser numeros.')
+                : Yii::t('yii', '{attribute} debe ser numeros.');
         }
         if ($this->min !== null && $this->tooSmall === null) {
-            $this->tooSmall = Yii::t('yii', '{attribute} must be no less than {min}.');
+            $this->tooSmall = Yii::t('yii', '{attribute} no debe ser menor a {min} números.');
         }
         if ($this->max !== null && $this->tooBig === null) {
-            $this->tooBig = Yii::t('yii', '{attribute} must be no greater than {max}.');
+            $this->tooBig = Yii::t('yii', '{attribute} solo acepta {max} números.');
         }
     }
 

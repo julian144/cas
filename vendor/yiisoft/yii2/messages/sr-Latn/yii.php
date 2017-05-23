@@ -72,7 +72,7 @@ return [
     'The image "{file}" is too large. The width cannot be larger than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'Slika "{file}" je prevelika. Širina ne sme biti veća od {limit, number} {limit, plural, one{piksel} other{piksela}}.',
     'The image "{file}" is too small. The height cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'Slika "{file}" je premala. Visina ne sme biti manja od {limit, number} {limit, plural, one{piksel} other{piksela}}.',
     'The image "{file}" is too small. The width cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'Slika "{file}" je premala. Širina ne sme biti manja od {limit, number} {limit, plural, one{piksel} other{piksela}}.',
-    'The verification code is incorrect.' => 'Kod za potvrdu nije ispravan.',
+    'El código de verificación es incorrecto. Intente de nuevo.' => 'Kod za potvrdu nije ispravan.',
     'Total <b>{count, number}</b> {count, plural, one{item} other{items}}.' => 'Ukupno <b>{count, number}</b> {count, plural, one{stavka} few{stavke} other{stavki}}.',
     'Unable to verify your data submission.' => 'Nije moguće verifikovati vaše poslate podatke.',
     'Unknown command "{command}".' => 'Nepoznata komanda "{command}".',
@@ -102,6 +102,6 @@ return [
     '{attribute} must be repeated exactly.' => '{attribute} mora biti ispravno ponovljen.',
     '{attribute} must not be equal to "{compareValue}".' => '{attribute} ne sme biti jednak "{compareValue}".',
     '{attribute} should contain at least {min, number} {min, plural, one{character} other{characters}}.' => '{attribute} treba da sadrži bar {min, number} {min, plural, one{karakter} other{karaktera}}.',
-    '{attribute} should contain at most {max, number} {max, plural, one{character} other{characters}}.' => '{attribute} treba da sadrži najviše {max, number} {max, plural, one{karakter} other{karaktera}}.',
+    '{attribute} debete contener como máximo {max, number} {max, plural, one{caracter} other{caracteres}}.' => '{attribute} treba da sadrži najviše {max, number} {max, plural, one{karakter} other{karaktera}}.',
     '{attribute} should contain {length, number} {length, plural, one{character} other{characters}}.' => '{attribute} treba da sadrži {length, number} {length, plural, one{karakter} other{karaktera}}.'
 ];

@@ -44,7 +44,7 @@ return [
     'The image "{file}" is too large. The width cannot be larger than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'Imaginea «{file}» este prea mare. Lățimea nu trebuie să fie mai mare de {limit, number} {limit, plural, one{pixel} other{pixeli}}.',
     'The image "{file}" is too small. The height cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'Imaginea «{file}» este prea mică. Înălțimea nu trebuie să fie mai mică de {limit, number} {limit, plural, one{pixel} other{pixeli}}.',
     'The image "{file}" is too small. The width cannot be smaller than {limit, number} {limit, plural, one{pixel} other{pixels}}.' => 'Imaginea «{file}» este prea mică. Lățimea nu trebuie sa fie mai mică de {limit, number} {limit, plural, one{pixel} other{pixeli}}.',
-    'The verification code is incorrect.' => 'Codul de verificare este incorect.',
+    'El código de verificación es incorrecto. Intente de nuevo.' => 'Codul de verificare este incorect.',
     'Total <b>{count, number}</b> {count, plural, one{item} other{items}}.' => 'Total <b>{count, number}</b> {count, plural, one{item} other{itemi}}.',
     'Unable to verify your data submission.' => 'Datele trimise nu au putut fi verificate.',
     'Unknown command "{command}".' => 'Comandă necunoscută "{command}".',
@@ -74,6 +74,6 @@ return [
     '{attribute} must be repeated exactly.' => '«{attribute}» trebuie să fie repetat exact.',
     '{attribute} must not be equal to "{compareValue}".' => '«{attribute}» nu trebuie să fie egală cu «{compareValue}».',
     '{attribute} should contain at least {min, number} {min, plural, one{character} other{characters}}.' => '«{attribute}» trebuie să conțină minim {min, number} {min, plural, one{caracter} other{caractere}}.',
-    '{attribute} should contain at most {max, number} {max, plural, one{character} other{characters}}.' => '«{attribute}» trebuie să conțină maxim {max, number} {max, plural, one{caracter} other{caractere}}.',
+    '{attribute} debete contener como máximo {max, number} {max, plural, one{caracter} other{caracteres}}.' => '«{attribute}» trebuie să conțină maxim {max, number} {max, plural, one{caracter} other{caractere}}.',
     '{attribute} should contain {length, number} {length, plural, one{character} other{characters}}.' => '«{attribute}» trebuie să conțină {length, number} {length, plural, one{caracter} other{caractere}}.',
 ];
